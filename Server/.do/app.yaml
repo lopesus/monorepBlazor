@@ -1,1 +1,10 @@
-
+name: test000
+region: ams
+services:
+- name: test001
+  github:
+    repo: lopesus/monorepBlazor
+    branch: master
+    deploy_on_push: true
+    #source_dir: Server
+  dockerfile_path: Server/Dockerfile
